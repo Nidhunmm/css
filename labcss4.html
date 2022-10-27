@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		h1.cd{text-align: center;
+			  margin-top: 20px;}
+
+		table,th,td{ border:1px solid black;}
+
+		table{border-collapse: collapse;
+		      width: 100%;
+		      height: 200px;
+		      text-align:left;}       
+
+		.dd{border-radius: 15px;}
+
+		button{ border: none ;}
+		body{border: 5px solid black;
+		     padding: 50px;}
+
+		.bb{float: right;
+			display: inline;
+		    }
+	    .fa fa-trash{color: blue;}
+
+	</style>
+</head>
+<body>
+	
+	<form>
+		<label for="drop">show</label>
+		<select id="drop" name="drop">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5" selected>5</option>
+		</select> entries
+		<label for="searchh" style="margin-left: 1000px;"></label>
+		<input type="search" name="searchh"value="search" >
+	</form>
+	<h1 class="cd"><span style="font-weight: 100";> Customer</span>Details</h1><br>
+    <table >
+    	<tr>
+    		<th>#</th>
+    		<th>Name <i class="fa fa-sort"></i></th>
+    		<th>Address</th>
+    		<th>City <i class="fa fa-sort"></i></th>
+    		<th>Pincode</th>
+    		<th>Country <i class="fa fa-sort"></i></th>
+    		<th>Actions </th>
+    	</tr>
+    	<tr>
+    		<td>1</td>
+    		<td>Thomas Hardy</td>
+    		<td>89 Chiarsco Rd</td>
+    		<td>porland</td>
+    		<td>91219</td>
+    		<td>USA</td>
+    		<td><i class="fa fa-eye" style="color: blue;font-size:20px; " >
+    			<i class="fa fa-pencil" style="color: yellow;font-size:20px; " >
+    			<i class="fa fa-trash" style="color:red;font-size: 20px;"></td>
+    	</tr>
+    	<tr>
+    		<td>2</td>
+    		<td>Maria Anders</td>
+    		<td>Obere Str57</td>
+    		<td>Berlin</td>
+    		<td>12209</td>
+    		<td>Germany</td>
+    		<td><i class="fa fa-eye" style="color: blue;font-size:20px; " >
+    			<i class="fa fa-pencil" style="color: yellow;font-size:20px; " >
+    			<i class="fa fa-trash" style="color:red;font-size: 20px;"></td>
+    	</tr>
+    	<tr>
+    		<td>3</td>
+    		<td>Fran Wilson</td>
+    		<td>C/araquil,67</td>
+    		<td>Madrid</td>
+    		<td>28023</td>
+    		<td>Spain</td>
+    		<td><i class="fa fa-eye" style="color: blue;font-size:20px; " >
+    			<i class="fa fa-pencil" style="color: yellow;font-size:20px; " >
+    			<i class="fa fa-trash" style="color:red;font-size: 20px;"></td>
+    	</tr>
+    	<tr>
+    		<td>4</td>
+    		<td>Dominic Perrier</td>
+    		<td>25,rue Lauriston</td>
+    		<td>Paris</td>
+    		<td>75016</td>
+    		<td>France</td>
+    		<td><i class="fa fa-eye" style="color: blue;font-size:20px; " >
+    			<i class="fa fa-pencil" style="color: yellow;font-size:20px; " >
+    			<i class="fa fa-trash" style="color:red;font-size: 20px;"></td>
+    	</tr>
+    	<tr>
+    		<td>5</td>
+    		<td>Martin Blank</td>
+    		<td>Via Monteblanco</td>
+    		<td>Turin</td>
+    		<td>10100</td>
+    		<td>Italy</td>
+    		<td><i class="fa fa-eye" style="color: blue;font-size:20px; " >
+    			<i class="fa fa-pencil" style="color: yellow;font-size:20px; " >
+    			<i class="fa fa-trash" style="color:red;font-size: 20px;"></td>
+    	</tr>
+    </table><br>
+    <b>Showing 5 out of 25 entries</b>
+<span class="bb">
+    <button = button>Previous</button>
+    <button = button class="dd">1</button>
+    <button = button class="dd">2</button>
+    <button = button class="dd" style="background-color: blue;">3</button>
+    <button = button class="dd">4</button>
+    <button = button class="dd">5</button>
+    <button = button>Next</button>
+
+</span>
+
+</body>
+</html>
